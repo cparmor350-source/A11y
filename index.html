@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A11y</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="header">
+    <a href="#" class="header-logo">
+      <img src="files/logo.png" alt="A11y, ir al inicio">
+    </a>
+
+    <nav class="header-nav" aria-label="Navegación principal">
+      <input type="checkbox" id="tema" class="tema-check">
+      <label for="tema" class="header-icono">
+        <img src="files/luna.png" alt="Cambiar entre modo claro y oscuro">
+      </label>
+      <a href="#buzon" class="header-icono">
+        <img src="files/buzon.png" alt="Ir al buzón de denuncias">
+      </a>
+      <a href="#cards" class="header-icono">
+        <img src="files/cards.png" alt="Ir a las tarjetas">
+      </a>
+    </nav>
+  </header>
+
+  <main>
+    <main>
+
+  <section class="main-intro" aria-labelledby="titulo-a11y">
+    <h1 id="titulo-a11y" class="main-titulo">¿Qué es A11y?</h1>
+
+    <p class="main-pronunciacion">
+      a11y <br>
+      <span lang="en">/æl.aɪ/</span>
+    </p>
+
+    <div class="main-caja">
+      <p>
+        A11y es un proyecto cuyo objetivo es ser tu buzón de denuncia o
+        notificación de páginas webs no accesibles para todos los usuarios
+        de internet.
+      </p>
+      <p>
+        Si encuentras alguna web con obstáculos en su aspecto visual o
+        tienes dificultades para entender su contenido, haz click en nuestro
+        buzón, registra la url correspondiente y déjanos una pequeña
+        descripción del problema que quieras notificar.
+      </p>
+      <a href="#buzon" class="main-caja-icono">
+        <img src="files/buzon.png" alt="Ir al buzón de denuncias">
+      </a>
+    </div>
+  </section>
+
+  <section class="main-collage" aria-label="Fotografías de buzones">
+    <img src="files/buzon-1.jpg" alt="Buzón azul grisáceo sobre una pared blanca rugosa" class="main-collage-img main-collage-img1">
+    <img src="files/buzon-2.jpg" alt="Buzón gris plateado sobre una pared amarilla" class="main-collage-img main-collage-img2">
+    <img src="files/buzon-3.jpg" alt="Buzón rosa con la palabra Postes sobre una pared oscura" class="main-collage-img main-collage-img3">
+    <img src="files/buzon-4.jpg" alt="Buzón blanco con el texto Letter Box sobre una pared clara" class="main-collage-img main-collage-img4">
+    <img src="files/buzon-5.jpg" alt="Buzón rojo cilíndrico sobre una pared verde" class="main-collage-img main-collage-img5">
+  </section>
+
+  <p class="main-lema">Entre todas podemos crear una web para todas.</p>
+
+</main>
+  </main>
+
+  <footer>
+  </footer>
+
+</body>
+</html>
