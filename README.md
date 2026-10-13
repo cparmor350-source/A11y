@@ -23,3 +23,6 @@ We would also like to expand the website to more languages.
 ## Figma prototype
 
 We have included a photo of the Figma prototype!
+
+<img width="280" height="773" alt="image" src="https://github.com/user-attachments/assets/6da4cef4-a68d-44b5-8e42-cf18b148baa9" />
+
